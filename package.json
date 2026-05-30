@@ -1,7 +1,7 @@
 {
     "name": "split-at-reaching-bottom",
     "displayName": "Split It",
-    "version": "1.2.0",
+    "version": "1.2.5",
     "description": "Auto splits the current tab to form another tab when cursor reaches bottom -- increases productivity.",
     "icon": "logo.png",
     "repository": {
@@ -36,6 +36,11 @@
                     "type": "number",
                     "default": 4,
                     "description": "The maximum number of split editor windows allowed before the extension starts closing the oldest ones."
+                },
+                "split-at-reaching-bottom.minimumLineCount": {
+                    "type": "number",
+                    "default": 15,
+                    "description": "Minimum number of lines a file must have before auto-split activates."
                 }
             }
         }
