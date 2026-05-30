@@ -3,7 +3,18 @@
     "displayName": "Split It",
     "version": "1.0.0",
     "description": "Auto splits the current tab to form another tab when cursor reaches bottom -- increases productivity.",
-    "publisher": "Anks",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ankur-sharma01/Split-It.git"
+    },
+    "keywords": [
+        "split",
+        "screen split",
+        "productivity",
+        "layout",
+        "tabs"
+    ],
+    "publisher": "anks010101",
     "engines": {
         "vscode": "^1.80.0"
     },
