@@ -1,7 +1,7 @@
 {
     "name": "split-at-reaching-bottom",
     "displayName": "Split It",
-    "version": "1.1.5",
+    "version": "1.2.0",
     "description": "Auto splits the current tab to form another tab when cursor reaches bottom -- increases productivity.",
     "icon": "logo.png",
     "repository": {
