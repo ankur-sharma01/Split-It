@@ -3,6 +3,7 @@
     "displayName": "Split It",
     "version": "1.0.5",
     "description": "Auto splits the current tab to form another tab when cursor reaches bottom -- increases productivity.",
+    "icon": "logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/ankur-sharma01/Split-It.git"
