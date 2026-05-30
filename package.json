@@ -1,0 +1,31 @@
+{
+    "name": "split-at-reaching-bottom",
+    "displayName": "Split It",
+    "version": "1.0.0",
+    "description": "Auto splits the current tab to form another tab when cursor reaches bottom -- increases productivity.",
+    "publisher": "Anks",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "configuration": {
+            "title": "Split It Configuration",
+            "properties": {
+                "split-at-reaching-bottom.enableAutoDelete": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "If enabled, old editor tabs will automatically close if you open too many split windows."
+                },
+                "split-at-reaching-bottom.maxTabsAllowed": {
+                    "type": "number",
+                    "default": 4,
+                    "description": "The maximum number of split editor windows allowed before the extension starts closing the oldest ones."
+                }
+            }
+        }
+    }
+}
